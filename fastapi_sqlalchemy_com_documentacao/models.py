@@ -2,7 +2,7 @@ from sqlalchemy import Column, Integer, String
 
 from database import Base
 
-class Cursos(Base):
+class Curso(Base):
     __tablename__ = 'cursos'
 
     id: int = Column(Integer, primary_key=True, index=True)
